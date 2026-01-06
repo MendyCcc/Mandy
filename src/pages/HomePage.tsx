@@ -76,7 +76,9 @@ export function HomePage({ onNavigate }: HomePageProps) {
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-24">
-          {projects.map((project, index) => (
+          {projects
+            .filter(project => ['id2', 'id3', 'id4', 'id5'].includes(project.id))
+            .map((project) => (
             <ProjectCard
               key={project.id}
               title={project.title}
