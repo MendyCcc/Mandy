@@ -280,11 +280,11 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    slug: 'urban-rest-hub',
-    title: 'Urban Rest Hub',
+    slug: 'ur:base',
+    title: 'U:base',
     subtitle: 'Integrated public space design collaboration',
     tags: ['Team Project', 'Service Design', 'Urban Planning'],
-    coverImage: 'https://images.unsplash.com/photo-1604071255486-e82a50924cf1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1cmJhbiUyMHB1YmxpYyUyMHNwYWNlfGVufDF8fHx8MTc2MzAxMzU1OHww&ixlib=rb-4.1.0&q=80&w=1080',
+    coverImage: 'https://github.com/MendyCcc/Mandy.github.io/blob/main/src/assets/ur%EF%BC%9Abase.png?raw=true',
     projectType: 'integrated-team',
     overview: {
       background: 'Urban Rest Hub is a large-scale service design initiative reimagining public transport waiting areas as restful, productive micro-environments for urban commuters. This integrated team project brought together designers, urban planners, transit authorities, and community stakeholders in a collaborative design process.',
