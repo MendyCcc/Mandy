@@ -176,7 +176,7 @@ export function AboutPage() {
         {/* Philosophy */}
         <motion.section {...fadeInUp} className="max-w-6xl">
           <h2 className="mb-8 text-[var(--accent)]">Design Philosophy</h2>
-          <div className="space-y-4 text-lg leading-relaxed opacity-80">
+          <div className="space-y-6 text-lg leading-relaxed opacity-80">
             <p>
               Design is not just about solving problems — it's about understanding the
               human condition and creating experiences that resonate on an emotional level.
